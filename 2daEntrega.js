@@ -106,7 +106,7 @@ class Contenedor{
         }
     }
 }
-const objeto = new Contenedor('Archivo')
+const objeto = new Contenedor('Productos')
 const producto1 = {nombre : "Celular"     ,price : 100, thumbnail : "https://celular.com"}
 const producto2 = {nombre : "Computadora" ,price : 200, thumbnail : "https://computadora.com"}
 const producto3 = {nombre : "Calculadora" ,price : 300, thumbnail : "https://calculadora.com"}
