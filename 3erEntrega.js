@@ -58,7 +58,6 @@ app.get('/', (req, resp) => {
 app.get('/productos', (req, resp) => {
     resp.send(objeto.getAll())
 })
-
 app.get('/productosRandom', (req, resp) => {
     resp.send(objeto.getById(rand))
 })
